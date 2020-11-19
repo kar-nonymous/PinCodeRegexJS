@@ -39,3 +39,17 @@
         console.log("Invalid pin");
     }
 }
+
+// UC 4
+{
+    let pinCode = '281 006';
+    let regexPattern = RegExp('^[0-9]{1}[a-zA-Z0-9]{2}[ ]*[a-zA-Z0-9]{2}[0-9]{1}$');
+    if (regexPattern.test(pinCode))
+    {
+        console.log("Valid pin");
+    } 
+    else
+    {
+        console.log("Invalid pin");
+    }
+}
